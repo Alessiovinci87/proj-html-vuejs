@@ -2,17 +2,16 @@
 <template>
   <div>
     <Navbar />
-    <Header />
-    <main>
-
-    </main>
+    <Main />
+    <MainSectionOne/>
     <Footer />
   </div>
 </template>
 
 <script setup>
 import Navbar from './components/Navbar.vue';
-import Header from './components/Header.vue';
+import Main from './components/Main.vue';
+import MainSectionOne from './components/MainSectionOne.vue';
 import Footer from './components/Footer.vue';
 </script>
 
@@ -22,12 +21,11 @@ import Footer from './components/Footer.vue';
 
 
 body {
+  background-color: black;
   font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }

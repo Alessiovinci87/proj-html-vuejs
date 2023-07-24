@@ -3,7 +3,7 @@
   <nav class="navbar">
     <div class="container">
       <div class="navbar-logo">
-        <img src="/img/Logo.png" alt="Logo">
+        <a href=""><img src="/img/Logo.png" alt="Logo"></a>
       </div>
       <ul class="nav-links">
         <li><a class="nav-link" href="#">HOME</a></li>
@@ -78,7 +78,7 @@
   .nav-links {
     display: flex;
     list-style: none;
-    font-size: xx-small;
+    font-size: x-small;
     margin: 0;
     padding: 0;
   }
@@ -159,7 +159,7 @@
   }
 
   .nav-links li a.nav-link:hover {
-  color: rgb(255, 106, 0);
+  color: #f2870c;
 }
 
 .dropdown-content {
