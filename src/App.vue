@@ -6,6 +6,8 @@
     <MainSectionOne/>
     <MainSectionTwo />
     <MainSectionThree />
+    <MainSectionFour/>
+    <MainSectionFive/>
     <Footer />
   </div>
 </template>
@@ -16,6 +18,8 @@ import Main from './components/Main.vue';
 import MainSectionOne from './components/MainSectionOne.vue';
 import MainSectionTwo from "./components/MainSectionTwo.vue";
 import MainSectionThree from "./components/MainSectionThree.vue";
+import MainSectionFour from "./components/MainSectionFour.vue";
+import MainSectionFive from "./components/MainSectionFive.vue";
 import Footer from './components/Footer.vue';
 
 </script>

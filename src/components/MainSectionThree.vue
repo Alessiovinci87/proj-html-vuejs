@@ -1,5 +1,7 @@
 <template>
     <div class="main-section-three">
+      <h4 class="orange-text">WHO WE ARE</h4>
+      <h3 class="white-text-three">SENSE THE JAZZ</h3>
       <div class="cards-container-three">
         <div class="card-three" v-for="image in galleryImages" :key="image.name">
           <div class="image-container-three">
@@ -29,8 +31,9 @@
     padding: 0 20px; 
   }
   
-  .white-text {
+  .white-text-three {
     color: white;
+    font-size: 50px;
   }
   
   .cards-container-three {

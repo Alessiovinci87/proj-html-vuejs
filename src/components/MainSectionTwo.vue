@@ -5,9 +5,9 @@
   
       <div class="full-width-image">
         <img src="/img/Video-1536x541.jpg" alt="Full Width Image">
-        <div class="centered-overlay">
+        <div class="centered-overlay-two">
           <i class="fa-regular fa-circle-play" style="color:#f2870c ;"></i>
-          <h1 class="white-text">NEW MUSIC VIDEO</h1>
+          <h1 class="white-text-two">NEW MUSIC VIDEO</h1>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
     display: block;
   }
   
-  .centered-overlay {
+  .centered-overlay-two {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,12 +44,12 @@
     color: white;
   }
   
-  .centered-overlay i {
+  .centered-overlay-two i {
     font-size: 64px;
   }
   
-  .centered-overlay h1 {
-    font-size: 32px;
+  .centered-overlay-two h1 {
+    font-size: 50px;
     margin-top: 16px;
   }
  

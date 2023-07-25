@@ -28,7 +28,9 @@
             <li><a href="#">SHOP PAGE</a></li>
           </ul>
         </li>
+        <a href=""><i class="fa-solid fa-magnifying-glass search"></i></a>
       </ul>
+     
     </div>
     
   </nav>
@@ -57,11 +59,16 @@
   width: 100%;
   background-color: #010101;
   color: white;
-  padding: 10px 0;
+  padding: 20px 0;
   z-index: 100; 
 }
 
-  
+.search {
+  color: white;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
   .container {
     display: flex;
     align-items: center;
@@ -77,13 +84,14 @@
 
   .nav-links {
     display: flex;
+   align-items: center;
     list-style: none;
-    font-size: x-small;
+    font-size: small;
     margin: 0;
     padding: 0;
   }
   
-  .nav-links li {
+  .nav-links li a {
     margin-left: 20px;
   }
   
@@ -132,6 +140,7 @@
   
   .mobile-nav-links li {
     padding: 10px;
+ 
   }
   
   .mobile-nav-links li a {
@@ -165,20 +174,27 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #030303;
+  background-color: #434242;
   list-style: none;
   padding: 0;
   margin-top: 5px;
+
 }
 
 .dropdown-content li {
+  text-align: start;
   padding: 10px;
+  border-bottom: 1px solid #ffffff; 
 }
 
 .dropdown-content li a {
   color: white;
   text-decoration: none;
+  padding-bottom: 5px; 
+
 }
+
+
 
 
 .dropdown:hover .dropdown-content {

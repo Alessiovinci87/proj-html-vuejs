@@ -5,7 +5,7 @@
       <div class="centered-text">
         <div class="title-wrapper">
           <h2 class="orange-text">INSTRUMENTAL ROCK</h2>
-          <h1 class="white-text">MUSIC IN THIS VIDEO</h1>
+          <h1 class="white-text-main">MUSIC IN THIS VIDEO</h1>
         </div>
         <button class="transparent-button">READ MORE</button>
       </div>
@@ -96,7 +96,7 @@
 }
 
 
-.white-text {
+.white-text-main {
   font-size: 50px;
   color: white;
 }
@@ -144,7 +144,7 @@ img {
 }
 
 .card {
-  margin: 20px;
+  margin: 40px;
   background-color: #161616;
   padding: 30px;
   flex: 1;
@@ -189,5 +189,6 @@ img {
     width: 60px;
   }
 }
+
 
 </style>
