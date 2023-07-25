@@ -17,7 +17,7 @@
 
   </script>
   
-  <style lang="scss">
+  <style lang="scss"> 
 
   .main-section-two {
     display: flex;
