@@ -4,6 +4,8 @@
     <Navbar />
     <Main />
     <MainSectionOne/>
+    <MainSectionTwo />
+    <MainSectionThree />
     <Footer />
   </div>
 </template>
@@ -12,7 +14,10 @@
 import Navbar from './components/Navbar.vue';
 import Main from './components/Main.vue';
 import MainSectionOne from './components/MainSectionOne.vue';
+import MainSectionTwo from "./components/MainSectionTwo.vue";
+import MainSectionThree from "./components/MainSectionThree.vue";
 import Footer from './components/Footer.vue';
+
 </script>
 
 <style lang="scss">
