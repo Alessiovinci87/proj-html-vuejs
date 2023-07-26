@@ -62,18 +62,19 @@
   </template>
   
   <script>
-  export default {
-  }
+
   </script>
   
   <style lang="scss">
   .footer {
-    background-color: #161616;
     color: white;
 
   }
   
   .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -139,6 +140,7 @@
   }
   
   .orange-button {
+    width: 200px;
     font-size: 16px;
     background-color: transparent;
     border: 2px solid #f2870c;

@@ -1,7 +1,6 @@
-
 <template>
   <div>
-    <Navbar />
+    <HeaderNavbar />
     <Main />
     <MainSectionOne/>
     <MainSectionTwo />
@@ -13,7 +12,7 @@
 </template>
 
 <script setup>
-import Navbar from './components/Navbar.vue';
+import HeaderNavbar from './components/HeaderNavbar.vue';
 import Main from './components/Main.vue';
 import MainSectionOne from './components/MainSectionOne.vue';
 import MainSectionTwo from "./components/MainSectionTwo.vue";
@@ -21,12 +20,11 @@ import MainSectionThree from "./components/MainSectionThree.vue";
 import MainSectionFour from "./components/MainSectionFour.vue";
 import MainSectionFive from "./components/MainSectionFive.vue";
 import Footer from './components/Footer.vue';
-
 </script>
 
 <style lang="scss">
 @import '@fortawesome/fontawesome-free/css/all.min.css';
-@import './styles/reset.sass';
+
 
 
 body {

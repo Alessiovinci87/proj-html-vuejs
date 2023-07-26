@@ -2,7 +2,7 @@
     <div class="main-section-five">
       <div class="section-title">
         <p class="orange-text">MUSIC BLOG</p>
-        <h1 class="white-text-four">BEST MUSIC BLOG</h1>
+        <h1 class="white-text-small">BEST MUSIC BLOG</h1>
       </div>
   
       <div class="blog-images">
@@ -45,25 +45,19 @@ const currentPage = 0;
 </script>
   
   <style lang="scss">
-  /* Stili per il componente "MainSectionfive" */
   .main-section-five {
     text-align: center;
     background-color: #060606;
-    color: white;
+    color: #ffffff;
     padding: 40px 0;
   }
 
-  .orange-text {
-    color: #f2870c;
-    font-size: 18px;
-  }
-  
   .section-title {
     margin-bottom: 20px;
   }
   
-  .section-title h1 {
-    font-size: 32px;
+  .date {
+    text-align: center;
   }
   
   .blog-images {
@@ -73,9 +67,8 @@ const currentPage = 0;
   
   .blog-image {
     width: 30%;
-    background-color: #161616;
     padding: 10px;
-    text-align: center;
+    text-align: start;
   }
   
   .blog-image img {
@@ -91,17 +84,12 @@ const currentPage = 0;
   
   .blog-text {
     margin-top: 10px;
-    color: white;
+    color: #ffffff;
   }
 
   .main-section-five {
   text-align: center;
   padding: 40px 0;
-}
-
-.orange-text {
-  color: #f2870c;
-  font-size: 18px;
 }
 
 .image-slider {
@@ -114,7 +102,7 @@ const currentPage = 0;
 img {
   max-width: 100%;
   height: auto;
-  margin-right: 10px; /* Aggiungi spazio tra le immagini */
+  margin-right: 10px;
 }
   </style>
   

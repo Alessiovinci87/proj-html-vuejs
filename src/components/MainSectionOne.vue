@@ -3,7 +3,7 @@
       <div class="second-centered-text">
         <div class="title-wrapper">
           <h2 class="orange-text">WHO WE ARE</h2>
-          <h1 class="white-text-one">SENSE THE JAZZ</h1>
+          <h1 class="white-text-small">SENSE THE JAZZ</h1>
           <div class="paragraph-container">
             <p>
               The Story Of Jazz And Blues Society Is The Story Of Determination, Passion, Idealism,
@@ -27,6 +27,14 @@
   </script>
   
   <style lang="scss">
+
+.white-text-small{
+  margin: 20px 0;
+  color: #ffffff;
+  font-size: 70px;
+}
+
+
 .title-wrapper {
   display: flex;
   flex-direction: column;
@@ -42,14 +50,14 @@
 
 .white-text-one {
   font-size: 50px;
-  color: white;
+  color: #ffffff;
 }
 
 .paragraph-container {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 30px;
-  color: white; 
+  color: #ffffff; 
 }
 
 .second-centered-text {

@@ -5,7 +5,7 @@
       <div class="centered-text">
         <div class="title-wrapper">
           <h2 class="orange-text">INSTRUMENTAL ROCK</h2>
-          <h1 class="white-text-main">MUSIC IN THIS VIDEO</h1>
+          <h1 class="white-text-large">MUSIC IN THIS VIDEO</h1>
         </div>
         <button class="transparent-button">READ MORE</button>
       </div>
@@ -53,6 +53,10 @@
 
 <style lang="scss">
 
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
 .main-content {
   display: flex;
   justify-content: center;
@@ -85,28 +89,31 @@
 
 .title-wrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 
 .orange-text {
+  margin: 0;
   font-size: 18px;
   color: #f2870c;
 }
 
 
-.white-text-main {
-  font-size: 50px;
-  color: white;
+.white-text-large {
+  margin: 20px 0;
+  font-size:110px;
+  color: #ffffff;
+  white-space: nowrap;
 }
 
 
 .transparent-button {
+  width: 200px;
   font-size: 16px;
   background-color: transparent;
   border: 2px solid #f2870c;
-  color: white;
+  color: #ffffff;
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -144,11 +151,10 @@ img {
 }
 
 .card {
-  margin: 40px;
+  margin: 10px;
   background-color: #161616;
   padding: 30px;
   flex: 1;
-
   text-align: center;
   margin-top: -40px;
   position: relative;
@@ -170,9 +176,15 @@ img {
   filter: brightness(0) invert(1);
 }
 
-.card h5,
+
 .card p {
-  color: #fff;
+  color: #ffffff;
+}
+
+.card h5 {
+  color: white;
+  font-size: 25px;
+  margin:20px;
 }
 
 @media (max-width: 768px) {
