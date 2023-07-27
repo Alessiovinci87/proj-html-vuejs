@@ -189,7 +189,7 @@ const toggleMobileMenu = () => {
   margin-top: 5px;
 }
 
-.dropdown-content li {
+.dropdown-content li { 
   text-align: start;
   padding: 10px;
   border-bottom: 1px solid #ffffff;

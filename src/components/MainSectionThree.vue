@@ -68,6 +68,6 @@ const galleryImages = [
 }
 
 .card-three-title {
-  color: #ffffff;
+  color: #ffffff; 
 }
 </style>

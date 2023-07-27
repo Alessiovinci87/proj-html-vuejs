@@ -121,7 +121,7 @@
 
 .counter-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; 
   padding: 111px;
 }
 

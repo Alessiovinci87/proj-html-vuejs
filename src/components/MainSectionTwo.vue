@@ -20,7 +20,7 @@
 
 .main-section-two {
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 
 .full-width-image {

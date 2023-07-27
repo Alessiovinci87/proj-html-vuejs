@@ -1,7 +1,13 @@
 <template>
   <div class="main-content">
     <div class="background-wrapper">
-      <img class="background-image" src="/img/image (1).png" alt="Background Image">
+      <img
+        v-for="(image, index) in backgroundImages"
+        :key="index"
+        :src="image"
+        :class="['background-image', { 'show': currentBackgroundIndex === index }]"
+        alt="Background Image"
+      />
       <div class="centered-text">
         <div class="title-wrapper">
           <h2 class="orange-text">INSTRUMENTAL ROCK</h2>
@@ -44,11 +50,25 @@
       </div>
     </div>
   </div>
-  
 </template>
 
 <script setup>
+  import { ref, onMounted } from 'vue';
 
+  const backgroundImages = [
+    '/img/image (1).png',
+    '/img/image.png',
+  ];
+
+  const currentBackgroundIndex = ref(0);
+
+  function rotateBackgroundImage() {
+    currentBackgroundIndex.value = (currentBackgroundIndex.value + 1) % backgroundImages.length;
+  }
+
+  onMounted(() => {
+    setInterval(rotateBackgroundImage, 5000);
+  });
 </script>
 
 <style lang="scss">
@@ -187,6 +207,28 @@ img {
   margin:20px;
 }
 
+.background-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.background-image.show {
+  opacity: 1;
+}
+
+
 @media (max-width: 768px) {
   .cards-container {
     flex-direction: column;
@@ -201,6 +243,5 @@ img {
     width: 60px;
   }
 }
-
 
 </style>

@@ -7,7 +7,7 @@
     <MainSectionThree />
     <MainSectionFour/>
     <MainSectionFive/>
-    <Footer />
+    <Footer /> 
   </div>
 </template>
 

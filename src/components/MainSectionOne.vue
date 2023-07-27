@@ -60,7 +60,7 @@
   color: #ffffff; 
 }
 
-.second-centered-text {
+.second-centered-text { 
   display: flex;
   flex-direction: column; 
   align-items: center; 

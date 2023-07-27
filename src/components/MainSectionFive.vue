@@ -102,7 +102,8 @@ const currentPage = 0;
 img {
   max-width: 100%;
   height: auto;
-  margin-right: 10px;
+  margin-right: 10px; 
 }
   </style>
+  
   
